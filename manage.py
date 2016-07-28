@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
-from flask.ext.script import Manager
-from flask.ext.migrate import MigrateCommand
+from flask_migrate import Manager
+from flask_migrate import MigrateCommand
 from website import app
 
 manager = Manager(app)
