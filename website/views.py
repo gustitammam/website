@@ -12,6 +12,11 @@ def about():
     return render_template('about.html')
 
 
+@app.route('/members/')
+def members():
+    return render_template('members.html')
+
+
 @app.route('/jobs/')
 def jobs():
     return render_template('jobs.html')
